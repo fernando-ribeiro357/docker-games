@@ -1,6 +1,5 @@
 # https://www.dosgames.com/game/paranoid/
 GAME_TAG=paranoid
-# GAME_URL=ZIP/paranoid.zip
 GAME_URL="https://www.dosgames.com/files/paranoid.zip"
 GAME_ARGS=\"PARANOID.COM\"
 docker build \
