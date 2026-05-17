@@ -1,6 +1,6 @@
 FROM node:18-alpine AS jsdos
 
-WORKDIR site
+WORKDIR /site
 RUN wget https://js-dos.com/6.22/current/js-dos.js && \
     wget https://js-dos.com/6.22/current/wdosbox.js && \
     wget https://js-dos.com/6.22/current/wdosbox.wasm.js
